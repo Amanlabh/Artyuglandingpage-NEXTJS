@@ -47,7 +47,7 @@ export default function Navbar() {
           </div>
 
           <a 
-            href="https://artyugweb-zeta.vercel.app/" 
+            href="https://app.artyug.art/#/sign-in" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105"
@@ -138,7 +138,7 @@ export default function Navbar() {
 
           <div className="relative">
             <a
-              href="https://artyugweb-zeta.vercel.app/"
+              href="https://app.artyug.art/#/sign-in"
               target="_blank"
               rel="noopener noreferrer"
               onMouseEnter={() => setHoveredIcon("signin")}
@@ -197,7 +197,7 @@ export default function Navbar() {
               </Link>
               <div className="border-t border-white/10 my-2" />
               <a 
-                href="https://artyugweb-zeta.vercel.app/" 
+                href="https://app.artyug.art/#/sign-in" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-4 py-3 bg-primary hover:bg-primary/90 text-white rounded-lg transition-all duration-200 text-sm font-semibold"

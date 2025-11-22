@@ -81,7 +81,7 @@ export default function CTASection() {
                 className="text-lg px-8 py-6 bg-white/10 border-white/20 text-white hover:bg-white/20"
                 asChild
               >
-                <a href="https://artyugweb-zeta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://app.artyug.art/#/sign-in" target="_blank" rel="noopener noreferrer">
                   Explore on Web
                 </a>
               </Button>
