@@ -46,9 +46,14 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <button className="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105">
+          <a 
+            href="https://artyugweb-zeta.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105"
+          >
             Sign In
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -132,13 +137,16 @@ export default function Navbar() {
           <div className="border-l border-white/20 mx-3 h-6" />
 
           <div className="relative">
-            <button
+            <a
+              href="https://artyugweb-zeta.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               onMouseEnter={() => setHoveredIcon("signin")}
               onMouseLeave={() => setHoveredIcon(null)}
               className="p-3 bg-primary hover:bg-primary/90 text-white rounded-full transition-all duration-300 transform hover:scale-105"
             >
               <UserPlus className="w-5 h-5" />
-            </button>
+            </a>
             <AnimatePresence>
               {hoveredIcon === "signin" && (
                 <motion.div
@@ -188,9 +196,14 @@ export default function Navbar() {
                 Careers
               </Link>
               <div className="border-t border-white/10 my-2" />
-              <button className="px-4 py-3 bg-primary hover:bg-primary/90 text-white rounded-lg transition-all duration-200 text-sm font-semibold">
+              <a 
+                href="https://artyugweb-zeta.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="px-4 py-3 bg-primary hover:bg-primary/90 text-white rounded-lg transition-all duration-200 text-sm font-semibold"
+              >
                 Sign In
-              </button>
+              </a>
             </div>
           </motion.div>
         )}
