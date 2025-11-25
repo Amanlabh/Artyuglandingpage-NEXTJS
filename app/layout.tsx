@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Playfair_Display, Inter, UnifrakturMaguntia } from "next/font/google"
+import Script from "next/script"
 import "./globals.css"
 import Navbar from "@/components/navbar"
 
@@ -58,8 +59,19 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${playfairDisplay.variable} ${inter.variable} ${unifrakturMaguntia.variable}`}>
-      <body className="font-sans antialiased">
+    <html lang="en">
+      <head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-KRNDEXGYCJ" />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KRNDEXGYCJ');
+          `}
+        </Script>
+      </head>
+      <body className={`${inter.variable} ${playfairDisplay.variable} ${unifrakturMaguntia.variable} font-sans antialiased`}>
         <Navbar />
         {children}
       </body>
