@@ -78,7 +78,7 @@ export default function Navbar() {
               Sign In
             </a>
             <a
-              href="https://drive.google.com/uc?export=download&id=1-DxqdiizUz6j1Gu0dFbl61SY7PZ64upo"
+              href="https://drive.google.com/file/d/12BvHlTS9esKKPDM7vTUcIxoeubnPs8b9/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#E8470A] text-white text-sm font-bold px-5 py-2 rounded-full hover:bg-[#D63E07] transition-all duration-200 hover:shadow-md"
@@ -137,7 +137,7 @@ export default function Navbar() {
                 Sign In
               </a>
               <a
-                href="https://drive.google.com/uc?export=download&id=1-DxqdiizUz6j1Gu0dFbl61SY7PZ64upo"
+                href="https://drive.google.com/file/d/12BvHlTS9esKKPDM7vTUcIxoeubnPs8b9/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-orange text-center justify-center"
